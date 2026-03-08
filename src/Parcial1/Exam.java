@@ -17,14 +17,13 @@ class Exam {
     }
 
     public Exam(Exam exam){
-        this(exam.type, exam.subject, exam.supervisor, exam.questionQuantity)
+        this(exam.type, exam.subject, exam.supervisor, exam.questionQuantity);
     }
 
     public void addQuestion(int index, String question){
         questions[index] = question;
     }
 
-    //Añadí 'int index'
     public void removeQuestion(int index){
         questions[index] = null;
     }
