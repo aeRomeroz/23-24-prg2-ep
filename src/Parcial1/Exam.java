@@ -36,15 +36,15 @@ class Exam {
         this.subject = subject;
     }
 
-    public String showQuestion(int index){
+    public String getQuestion(int index){
         return questions[index];
     }
 
-    public Teacher showSupervisor(){
+    public Teacher getSupervisor(){
         return supervisor;
     }
 
-    public String showType(){
+    public String getType(){
         return type;
     }
 

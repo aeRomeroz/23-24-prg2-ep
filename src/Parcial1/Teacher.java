@@ -23,15 +23,15 @@ class Teacher {
         this.surname = surname;
     }
 
-    public String showId(){
+    public String getId(){
         return id;
     }
 
-    public String showName(){
+    public String getName(){
         return name;
     }
     
-    public String showSurname(){
+    public String getSurname(){
         return surname;
     }
 }

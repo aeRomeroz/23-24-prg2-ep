@@ -33,19 +33,19 @@ class Subject {
         this.teacher = teacher;
     }
 
-    public String showName(){
+    public String getName(){
         return name;
     }
 
-    public String showId(){
+    public String getId(){
         return id;
     }
 
-    public int showCredits(){
+    public int getCredits(){
         return credits;
     }
 
-    public Teacher showTeacher(){
+    public Teacher getTeacher(){
         return teacher;
     }
 }
